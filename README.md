@@ -13,7 +13,7 @@ bool MainScene::init()
     float size = this->getContentSize().height;
 
     InfiniteParallax* parallax = InfiniteParallax::create();
-    parallax->setTexture("game_bg_01_001-hd.png");
+    parallax->setTexture("game_bg_01_001-hd.png"); // ->setSpriteFrame();
     parallax->setContentSize(this->getContentSize());
     parallax->setParallaxSize({ size, size });
     parallax->setParallaxScale(Vec2(1, 1));
